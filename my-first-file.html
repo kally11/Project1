@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>My First HTML</title>
+    <!-- INTERAL CSS -->
+    <style>
+      /* styles */
+    </style>
+    <!-- EXTERNAL CSS -->
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <!-- INLINE CSS -->
+    <header class="header">
+      <nav>
+        <ul>
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#">Projects</a>
+          </li>
+          <li>
+            <a href="#">About</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <header class="header">
+        <h1 class="heading">Welcome to Clubhouse!</h1>
+        <p class="definition">
+          <!-- strong element: bolder text -->
+          <strong>Clubhouse</strong> is an invitation-only networking app.
+        </p>
+      </header>
+      <section class="horse-parent">
+        <img id="my-horse" src="horse.jpeg" alt="my horse" />
+      </section>
+      <section>
+        <!-- div element: used to group block of elements -->
+        <div>
+          <h2>I am an h2 element inside div element</h2>
+          <p style="font-weight: 100; color: red">
+            I am a p element inside div element
+          </p>
+        </div>
+        <div>
+          <h3>I am an h2 element inside div element</h3>
+          <h4>I am a h4 element inside div element</h4>
+          <span>I am span element inside div element</span>
+        </div>
+        <span> I am span element by myself </span>
+      </section>
+      <p>- ------------------------------------</p>
+      <section>
+        <div>
+          <span class="header">HTML </span>
+          <p><u>HTML</u> is the best!</p>
+        </div>
+        <article>
+          <h1>HTML</h1>
+          <p><abbr>HTML</abbr> is the best!</p>
+        </article>
+      </section>
+      <section>
+        <div>
+          <h1>My first blog</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut error
+            tenetur nisi laudantium, harum in recusandae possimus doloribus?
+            Quos, non nulla. Enim veniam eligendi deserunt dolorum ratione
+            fugit, optio blanditiis?
+          </p>
+        </div>
+        <div>
+          <h1>My second blog</h1>
+          <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>This is done by skyzone student</p>
+      <p id="copyright">Copyrigh prohibited</p>
+      <p>2021</p>
+      <!-- br: self closing element. pushes element to the new line -->
+      <!-- <br /> -->
+      <!-- anchor element: element to redirect you to somewhere -->
+      <nav>
+        <a href="https://www.google.com/" target="_blank">GO TO GOOGLE.COM</a>
+        <br />
+        <a href="https://www.yahoo.com/" target="_blank">GO TO YAHOO.COM</a>
+      </nav>
+    </footer>
+  </body>
+</html>

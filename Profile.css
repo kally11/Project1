@@ -1,0 +1,28 @@
+body{
+    background-color:black;
+}
+h1,h2,h3,h4,h5,h6,p,span{
+    color: white;
+}
+footer{
+    text-align: center;
+}
+#profile-image{
+    border-radius: 50%;
+    height: 30%;
+    width: 30%;
+    box-shadow: 2px 4px 8px 3px Gainsboro;
+}
+#text{
+    color: white;
+    font-size: 30px;
+}
+#footerID{
+    font-size: 30px;
+}
+[type="button"]{
+    font-size: 30px;
+    color: red;
+    border-radius: 20%;
+    box-shadow: 2px 4px 8px 3px Gainsboro;
+}
